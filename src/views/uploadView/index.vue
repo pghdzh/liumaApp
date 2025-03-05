@@ -65,7 +65,7 @@ const getCardStyle = (orientation?: number) => {
     return { width: "240px", height: "420px" };
   } else {
     // 横图：保持原尺寸
-    return { width: "480px", height: "270px" };
+    return { width: "360px", height: "180px" };
   }
 };
 
@@ -307,7 +307,7 @@ onMounted(() => {
   gap: 20px;
   justify-content: space-around;
   overflow-y: auto;
- 
+
 }
 
 .image-card {
@@ -315,7 +315,7 @@ onMounted(() => {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 8px;
-
+  margin-bottom: 20px;
 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
